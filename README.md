@@ -34,7 +34,7 @@ cv2.waitKey(0) #klavyede herhangi  bir tusa basana kadar bekle
 
 ```
 
-![IMAGE ALT TEXT HERE](figure/odev1.jpg)
+![IMAGE ALT TEXT HERE](figure/karasu2.jpg)
 
 ### Yüklenen Resmin Üzerine Yazı Yazma, Resmi Yeniden Boyutlandırma, Ekranda Görüntüleme ve Dosyaya Kaydetme
 
