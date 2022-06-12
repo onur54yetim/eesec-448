@@ -23,10 +23,10 @@
 ## Proje 6: NumPy Kullanarak Sentetik Resim Oluşturma, Resimleri Birleştirme, Kendi Eşik Fonksiyonumuzu Yazma ve OpenCV ile Hız Bakımından Kıyaslama
 
 ## Ödev2
-[![IMAGE ALT TEXT HERE](figure/odev2.jpg)]
+![IMAGE ALT TEXT HERE](figure/odev2.jpg)
 
 ## Messi-Ronaldo
-[![IMAGE ALT TEXT HERE](figure/ronaldo and messi annotated.jpg)]
+![IMAGE ALT TEXT HERE](figure/ronaldo and messi annotated.jpg)
 
 ## Elon-Musk
-[![IMAGE ALT TEXT HERE](figure/elon musk binary.jpg)]
+![IMAGE ALT TEXT HERE](figure/elon musk binary.jpg)
