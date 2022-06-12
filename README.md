@@ -4,7 +4,7 @@
 
 
 
-## Proje 1: Resim Yükleme ve Görüntüleme (load-display-image)
+## Load-Display-İmage
 
 ```
 
@@ -37,7 +37,7 @@ cv2.waitKey(0) #klavyede herhangi  bir tusa basana kadar bekle
 ![IMAGE ALT TEXT HERE](figure/karasu2.jpg)
 
 
-## Proje 2: Numpy Merge İmage
+## Numpy Merge İmage
 
 ```
 
@@ -74,10 +74,28 @@ cv2.waitKey(0)
 ![IMAGE ALT TEXT HERE](figure/filtered%20merged%20fb%20images.jpg)
 
 
-## Proje 3: Filtreleme (filtering)
+## Bgr Gray Bw Otsu Threshold İmage
+
+```
+
+import cv2
+img = cv2.imread('m10.jpg')
+imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+T = 60 # 0 < T < 255
+(T, imgBW) = cv2.threshold(imgGray, T, 255, cv2.THRESH_OTSU)
+# resimleri yeniden boyutlandırıp ekranda görüntüle
+s = 0.8
+imgGrayResized = cv2.resize(imgGray, (int(s*imgGray.shape[1]), int(s*imgGray.shape[0])), 0)
+imgBWResized = cv2.resize(imgBW, (int(s*imgBW.shape[1]), int(s*imgBW.shape[0])), 0)
+cv2.imshow('gri tonlu resim', imgGrayResized)
+cv2.imshow('Otsu metodu ile esik degeri T = %i' %T, imgBWResized)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+```
 
 
-## Proje 4: Görüntü İşleme Hızını Hesaplama
+
 
 
 ## Ödev1
