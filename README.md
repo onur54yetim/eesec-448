@@ -79,10 +79,7 @@ for i in range(47,114): # furkan-data-1 için 66, furkan-data-2 için 47,114,1
         cv2.rectangle(img2, (x,y), (x+width,y+height), (0,255,0), 2)
         cv2.putText(img2, '(%.2f,%.2f)' %(x+width/2,y+height/2), (x-30,y-10), 2, 0.45, (0,255,0), 1)
     cv2.putText(img2, 'Tespit edilen yuz sayisi: %i' %len(rects2), (20,460), 2, 0.6, (0,255,0), 1)
-   
     
-    
-    # loop over the detections
     # loop over the detections
     for i in range(0, detections1.shape[2]):
 		# extract the confidence (i.e., probability) associated with the prediction
@@ -114,9 +111,7 @@ for i in range(47,114): # furkan-data-1 için 66, furkan-data-2 için 47,114,1
         text = "{:.2f}%".format(confidence * 100)
         y = startY - 10 if startY - 10 > 10 else startY + 10
         cv2.rectangle(img4, (startX,startY), (endX,endY), (0, 0, 255), 2)
-        cv2.putText(img4, text, (startX,y), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)  
-
-         
+        cv2.putText(img4, text, (startX,y), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)       
     # resmi göster
     stereo[0:h,0:w,:] = img1
     stereo[0:h,w:2*w,:] = img2
