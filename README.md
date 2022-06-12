@@ -36,8 +36,6 @@ cv2.waitKey(0) #klavyede herhangi  bir tusa basana kadar bekle
 
 ![IMAGE ALT TEXT HERE](figure/karasu2.jpg)
 
-### Yüklenen Resmin Üzerine Yazı Yazma, Resmi Yeniden Boyutlandırma, Ekranda Görüntüleme ve Dosyaya Kaydetme
-
 
 ## Proje 2: Numpy Merge İmage
 
@@ -72,6 +70,9 @@ cv2.imwrite('filtered merged fb images.jpg', mimg, [cv2.IMWRITE_JPEG_QUALITY,100
 cv2.waitKey(0)
 
 ```
+
+![IMAGE ALT TEXT HERE](figure/filtered%20merged%20fb%20images.jpg)
+
 
 ## Proje 3: Filtreleme (filtering)
 
