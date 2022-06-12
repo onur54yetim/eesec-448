@@ -119,7 +119,7 @@ cv2.destroyAllWindows()
 
 ```
 
-![IMAGE ALT TEXT HERE]()
+![IMAGE ALT TEXT HERE](figure/siyah%20beyaz%20resim.gif)
 
 
 ## Ödev1
