@@ -93,9 +93,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ```
-
-
-
+![IMAGE ALT TEXT HERE](figure/bgr-gray-bw-otsu-th.jpg)
 
 
 ## Ödev1
