@@ -26,7 +26,7 @@
 ![IMAGE ALT TEXT HERE](figure/odev2.jpg)
 
 ## Messi-Ronaldo
-![IMAGE ALT TEXT HERE](figure/ronaldo and messi annotated.jpg)
+![IMAGE ALT TEXT HERE](figure/ronaldo%20and%20messi%20annotated.jpg)
 
 ## Elon-Musk
-![IMAGE ALT TEXT HERE](figure/elon musk binary.jpg)
+![IMAGE ALT TEXT HERE](figure/elon%20musk%20binary.jpg)
