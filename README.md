@@ -173,7 +173,7 @@ k = 0
 for i in range(47,114): # furkan-data-1 için 66, furkan-data-2 için 47,114,1
     img1 = cv2.imread('onur-data-2/left cam %i.jpg' %i)
     img2 = cv2.imread('onur-data-2/right cam %i.jpg' %i)
-    img3 = cv2.imread('onur-data-2/right cam %i.jpg' %i)
+    img3 = cv2.imread('onur-data-2/left cam %i.jpg' %i)
     img4 = cv2.imread('onur-data-2/right cam %i.jpg' %i)
     k +=1
     (h,w,c) = img1.shape
@@ -213,7 +213,7 @@ for i in range(47,114): # furkan-data-1 için 66, furkan-data-2 için 47,114,1
         cv2.rectangle(img2, (x,y), (x+width,y+height), (0,255,0), 2)
         cv2.putText(img2, '(%.2f,%.2f)' %(x+width/2,y+height/2), (x-30,y-10), 2, 0.45, (0,255,0), 1)
     cv2.putText(img2, 'Tespit edilen yuz sayisi: %i' %len(rects2), (20,460), 2, 0.6, (0,255,0), 1)
-    
+   
     # loop over the detections
     for i in range(0, detections1.shape[2]):
 		# extract the confidence (i.e., probability) associated with the prediction
@@ -254,15 +254,16 @@ for i in range(47,114): # furkan-data-1 için 66, furkan-data-2 için 47,114,1
     s = 0.6
     rstereo = cv2.putText(stereo, 'Haar Cascade Face Detector', (420,80), 0, 1, (0,255,0), 2, 0)
     rstereo = cv2.putText(stereo, 'ResNet DL Face Detector (Caffe)', (380,580), 0, 1, (0,0,255), 2, 0)
-    rstereo = cv2.putText(stereo, 'SAMPIYON ', (480,680), 0, 1, (255,0,0), 2, 0)
-    rstereo = cv2.putText(stereo, 'FENERBAHCE ',  (650,680), 0, 1, (0,255,255), 2, 0)
+    rstereo = cv2.putText(stereo, 'Written By  ', (470,620), 0, 1, (0,255,255), 2, 0)
+    rstereo = cv2.putText(stereo, 'ONUR',  (650,620), 0, 1, (0,255,255), 2, 0)
     rstereo = cv2.resize(stereo, (int(s*stereo.shape[1]), int(s*stereo.shape[0])), cv2.INTER_LINEAR)
     cv2.imshow('Haar cascade metodu ve Derin ogrenme ile yuz tespiti ', rstereo) 
-    if cv2.waitKey(1) == 27: # ESC'ye basınca çık
+    if cv2.waitKey(1) & 0xFF == ord('a'):
         break
 cv2.destroyAllWindows()
 
 ```
+
 ![IMAGE ALT TEXT HERE](figure/odev2.jpg)
 
 
