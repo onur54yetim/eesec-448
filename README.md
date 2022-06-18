@@ -264,7 +264,7 @@ cv2.destroyAllWindows()
 
 ```
 
-![IMAGE ALT TEXT HERE](figure/odev2.jpg)
+![IMAGE ALT TEXT HERE](figure/hw2.jpg)
 
 
 ## Messi-Ronaldo
