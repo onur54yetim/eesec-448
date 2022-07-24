@@ -2,9 +2,41 @@
 # EESEC-448 GÖRÜNTÜ İŞLEME
 
 
+## Sanal Ortam Oluşmama Hatası Çözümü
+
+
+Powershell'i yönetici olarak çalıştırın ve bu komutları kullanın.
+
+
+```
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
+
+```
+
+```
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
+
+```
+
+
+```
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+```
+
+
+```
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+```
 
 
 ## Load-Display-İmage
+
 
 ```
 
