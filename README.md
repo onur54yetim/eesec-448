@@ -5,7 +5,7 @@
 ## Powershellde Sanal Ortam Aktif Olmama Hatası Çözümü
 
 
-Powershell'i yönetici olarak çalıştırın ve bu komutları kullanın.
+Powershell'i yönetici olarak çalıştırın ve sırayla bu komutları kullanın.
 
 
 ```
