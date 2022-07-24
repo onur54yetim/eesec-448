@@ -2,7 +2,7 @@
 # EESEC-448 GÖRÜNTÜ İŞLEME
 
 
-## Sanal Ortam Oluşmama Hatası Çözümü
+## Powershellde Sanal Ortam Oluşmama Hatası Çözümü
 
 
 Powershell'i yönetici olarak çalıştırın ve bu komutları kullanın.
