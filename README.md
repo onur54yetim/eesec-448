@@ -2,7 +2,7 @@
 # EESEC-448 GÖRÜNTÜ İŞLEME
 
 
-## Powershellde Sanal Ortam Aktif olmama Hatası Çözümü
+## Powershellde Sanal Ortam Aktif Olmama Hatası Çözümü
 
 
 Powershell'i yönetici olarak çalıştırın ve bu komutları kullanın.
