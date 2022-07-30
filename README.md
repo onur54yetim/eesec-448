@@ -1,7 +1,7 @@
 
 # EESEC-448 GÖRÜNTÜ İŞLEME 
 
-![IMAGE ALT TEXT HERE](figure/OpenCV.png)
+![IMAGE ALT TEXT HERE](figure/OpenCVfoto.png)
 
 
 ## Sanal Ortam Oluşturulurken Kullanılan Komutlar
