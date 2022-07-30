@@ -1,5 +1,8 @@
 
-# EESEC-448 GÖRÜNTÜ İŞLEME
+# EESEC-448 GÖRÜNTÜ İŞLEME 
+
+![IMAGE ALT TEXT HERE](figure/)
+
 
 ## Sanal Ortam Oluşturulurken Kullanılan Komutlar
 
