@@ -1,10 +1,10 @@
 
 # EESEC-448 GÖRÜNTÜ İŞLEME
 
-##
-Sanal Ortam Oluşturulurken Kullanılan Komutlar
+## Sanal Ortam Oluşturulurken Kullanılan Komutlar
 
-Masaüstünde herhangi bir klasör oluşturduktan sonra Windows PowerShell'de gerekli cd komutlarıyla bu klasörün içine girin. 
+
+Masaüstünde herhangi bir klasör oluşturun. Windows PowerShell'de gerekli cd komutlarıyla bu klasörün içine girin. 
 
 ```
 py -m venv opencv-env
@@ -16,14 +16,17 @@ Sanal ortamı(İng. virtual environment) aktif hale getirme
 .\opencv-env\Scripts\activate
 
 ```
+## OpenCV İçin Gerekli Olan Paket Ve kütüphaneleri Yükleme
+
 
 ```
 pip install opencv-contrib-py streamlit jupyter moviepy ipykernel matplotlib
 ```
+
 ```
 pip install pyautogui mediapipe mime
 ```
- OpenCV koşturabilmek için gerekli olan bütün paket ve kütüphaneleri yükleyin.
+
 
 
 ## Powershellde Sanal Ortam Aktif Olmama Hatası Çözümü
