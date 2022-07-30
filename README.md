@@ -20,7 +20,7 @@ Sanal ortamı(İng. virtual environment) aktif hale getirme
 .\opencv-env\Scripts\activate
 
 ```
-## OpenCV İçin Gerekli Olan Paket Ve kütüphaneleri Yükleme
+## OpenCV İçin Gerekli Olan Paket Ve Kütüphaneleri Yükleme
 
 
 ```
